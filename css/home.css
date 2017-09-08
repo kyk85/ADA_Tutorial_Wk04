@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+.header {
+	background-color: #35424A;
+	color:white;
+	padding: 30px;
+	border-bottom: 2px solid red;
+	font-size:1.4em;
+	overflow:auto;
+	
+}
+
+.container{
+	width: 80%;
+	margin: 0px auto;
+
+}
+
+.titleName{
+	float:left;
+	width:68%;
+	font-weight:bold;
+}
+
+.titleName #redTitle{
+	color: #E8491D;
+}
+
+.container nav {
+	float:left;
+	width: 30%;
+}
+
+.topmenu ul li {
+	display:inline-block;
+	font-size:0.8em;
+}
+
+.topmenu ul li a{
+	color: white;
+	font-size:0.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:10px;
+}
+
+.banner {
+	height:200px;
+	background-image: url("../images/showcase.jpg");
+	background-position: center;
+	color:white;
+	text-align: center;
+	padding-top:150px;
+}
+
+.banner h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+.banner p {
+	font-size:1.2em;
+
+}
+
+.subscribe {
+	background-color: #35424A;
+	text-align: center;
+	color:white;
+	padding: 30px;
+	overflow:auto;
+	
+}
+
+.subscribe p {
+	font-size:20px;
+	float:left;
+	width:50%;
+}
+
+.subscribe p input {
+	width:300px;
+	height:20px;
+	border:none;
+}
+
+.subscribe p button {
+	background-color: #E8491D;
+	width:100px;
+	height:20px;
+	color:white;
+	border:none;
+}
+
+.content {
+	overflow:auto;
+	padding: 50px
+	text-size:0.5em;
+	text-align: center;
+}
+
+.content .one-third {
+	float:left;
+	width:28%;
+	padding: 20px;
+}
+
+.content img {
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+.content h1 {
+	font-weight:bold;
+
+}
+
+.content p {
+	font-size:0.9em;
+}
